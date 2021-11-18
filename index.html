@@ -1,113 +1,105 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Diane Galiano</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">    
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/1b97d5d228.js" crossorigin="anonymous"></script>
+    
 </head>
+
 <body>
 
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Diane's Portfolio</a>
-
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#me" class="pure-menu-link">About Me</a></li>
-            <li class="pure-menu-item"><a href="#project" class="pure-menu-link">Projects</a></li>
-            <li class="pure-menu-item"><a href="/Resume.pdf" class="pure-menu-link">Resume</a></li>
-            <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
-
+    <nav id="home">
+        <ul>
+            <li>
+                <a href="./Resume.pdf">Resume</a>
+            </li>
+            <li>
+                <a href="#me">About Me</a>
+            </li>
+            <li>
+                <a href="#project">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
-    </div>
-</div>
+    </nav>
 
-<div class="splash-container">
-    <div class="splash">
-        <h1 class="splash-head">Hello, I'm <span class="name"> Diane Galiano</span>. I am a<span class="name"> Full Stack Developer.</span></h1>
-    </div>
-</div>
+    
+    <header>
+        <div class="hero-image"></div>
+        <div class="hero-text">Hello, I'm <span class="name"> Diane Galiano</span> . I'm a web developer.</div>
+    </header>
 
-<div class="content-wrapper">
-    <div class="ribbon l-box-lrg pure-g" id="me">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img width="300" alt="File Icons" class="pure-img-responsive" src="/assets/image/me.jpg">
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
-
-            <h2 class="content-head content-head-ribbon" >About Me.</h2>
-
-            <p>
-                I am a web developer currently located in Killeen, TX. 
-                I am a graduate of The Art Institute of Austin, and as a Media Arts and Animation major, I have a strong background in media production such as animation, graphic design, audio production and more. 
-                <br>
-                <br>
-                Seeking to broaden my horizon I am always pushing myself to learn the latest technology skills. 
-                It is my goal to use my skills to create intuitive and dynamic content.
-            </p>
-        </div>
-    </div>
-    <div class="content">
-        <h2 class="content-head is-center" id="project">Projects</h2>
+    <main>
+        <img class="Me" src="./images/me.jpg" alt="Diane Galiano">
         
-        <div class="pure-g">
-            
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    Project 1: Game Finder
-                </h3>
-                    <img width="300" alt="File Icons" class="pure-img-responsive" src="/assets/image/ProjectOne.png">
+        <h2 class="title" id="me" >About Me</h2>
 
-                <p>
-                    In this project the goal is to build a game finder using 3rd party APIs.
-                </p>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    Project 2: Automotive Repair Tracker
-                </h3>
-                <img width="300" alt="File Icons" class="pure-img-responsive" src="/assets/image/ProjectTwo.png">
+        
+        <p>
+            I am a web developer currently located in Killeen, TX. 
+            I am a graduate of The Art Institute of Austin, and as a Media Arts and Animation major, I have a strong background in media production such as animation, graphic design, audio production and more. 
+            <br>
+            <br>
+            Seeking to broaden my horizon I am always pushing myself to learn the latest technology skills. 
+            It is my goal to use my skills to create intuitive and dynamic content.  
+        </p>
+<br>
+<br>
+    </main>
+    <br>
+<!-- Home button -->
+    <button class="button is-primary">
+        <span class="icon-text">
+            <span class="icon">
+                <i class="fas fa-home"></i>
+            </span>
+            <a href="#home">Home</a>
+        </span>
+    </button>
 
-                <p>
-                    In this project the goal is to bild a company auto repairs tracker web page.                
-                </p>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    E-Commerce Back End
-                </h3>
-                <img width="300" alt="File Icons" class="pure-img-responsive" src="/assets/image/ECom.png">
+    <br>
+<!-- Project Placeholders -->
+    <section>
+       <h2 class="title" id="project">Projects</h2>
 
-                <p>
-                    In this project the goal is to bild the back end for an e-commerce site.                
-                </p>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">
-                    Professional README Generator
-                </h3>
-                <img width="300" alt="File Icons" class="pure-img-responsive" src="/assets/image/README.png">
-
-                <p>
-                    This project was created to test my knowledge of node js. The README Generator uses node to create a README file using prompts.                
-                </p>
-            </div>
+        <div>
+            <h3>Game Finder</h3>
+            <a href="https://dianegaliano.github.io/project1_videoGameFinder/">
+            <img class="card" src="./images/ProjectOne.png" alt="Place Holder">
+            </a>
         </div>
-    </div>
-    <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+        <div>
+            <h3>Work Day Scheduler</h3>
+            <a href="https://dianegaliano.github.io/HW-Week5-Work-Day-Scheduler/">
+            <img class="card" src="./images/WorkDay.png" alt="Place Holder">
+            </a>
         </div>
-        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+         <div>
+             <h3>Code Refactor</h3>
+             <a href="https://dianegaliano.github.io/HW-Code-Refactor/">
+            <img class="card" src="./images/CodeRefactor.png" alt="Place Holder">
+            </a>
+        </div>
+    </section>
 
-            <h2 class="content-head content-head-ribbon" id="contact">Contact Me.</h2>
+  <!-- Footer with contact info -->
+    <footer>
+        <h2 class="title" id="contact">Contact Information</h2>
 
-             <!-- LinkedIn Button -->
+        <p><span class="name">Email:</span> dianegaliano09@gmail.com</p>
+       
+        
+        <!-- LinkedIn Button -->
         <button class="button is-primary">
             <span class="icon-text">
                 <span class="icon">
@@ -133,14 +125,8 @@
             </span>
             <a href="#home">Home</a>
         </span>
-        </div>
-    </div>
-    </div>
-
-    <div class="footer l-box is-center">
-        View the source of this layout to learn more. Made with love by the Pure Team.
-    </div>
-</div>
-
+    </footer>
 </body>
+
 </html>
+
